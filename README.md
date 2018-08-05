@@ -1,3 +1,15 @@
+**Please post any errors into the issues tab.**
+While posting an error, please add
+   - **The script or mission file associated.**
+   - **Time and date of the issue.**
+   - **Script version number.**
+   
+
+**Enhanced Zeus Gamemaster**
+- https://forums.bohemia.net/forums/topic/217312-mp-gamemode-enhanced-zeus-gamemaster/
+
+Any other information can be found in the readme files of each project.
+
 Credits:
 	Headphones Image: https://pngtree.com/freepng/cartoon-headphones_755808.html - Awesome image, 
 										       thank you!
@@ -6,6 +18,8 @@ Credits:
 
 	TAW_VD - Wonderful script, will be replacing soon with a personal-made version.
 
+
+**IF YOU WISH TO INSTALL THIS FRAMEWORK - PLEASE FOLLOW THE STEPS BELOW!**
 
 Note:
 
@@ -28,19 +42,20 @@ Installing this framework :
 
 Step 1: Take the folder "Curious's Framework" and place it into the base directory of your mission file.
 	The Folder stucture will now look like:
-	missionNamespace\Curious's Framework
+	`missionNamespace\Curious's Framework`
 
 Step 2: Copy and paste the following files into the base directory of your mission file:
-	initPlayerLocal.sqf
-	initPlayerServer.sqf
-	initServer.sqf
-	init.sqf
-	onPlayerRespawn.sqf
-	stringtable.xml
-	description.ext
-	
-	The directory will now look like:
-	missionNamespace\_aboveFiles_
+   -    `initPlayerLocal.sqf`
+   -    `initPlayerServer.sqf`
+   -    `initServer.sqf`
+   -    `init.sqf`
+   -    `onPlayerRespawn.sqf`
+   -    `stringtable.xml`
+   -    `description.ext`
+
+
+The directory will now look like:
+	`missionNamespace\_aboveFiles_`
 
 Step 3: Download "http://www.armaholic.com/page.php?id=19751" and place in the base directory. Follow
 	any relevent documentation to ensure the view distance script works correctly.
